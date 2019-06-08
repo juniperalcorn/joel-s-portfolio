@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import {gitlogo} from '../assets/GitHub-Mark-Light-32px.png'
 
 function Footer(){
     return(
         <div className='footer'>
-            <div>Website Juniper Alcorn, 2019</div>
+            <div>Website &copy; Juniper Alcorn, 2019</div>
             <a href='https://github.com/juniperalcorn'>
-                <img src='./assets/GitHub-Mark-Light-32px.png'/>
+                <img className='logo' src={gitlogo}></img>
             </a>
         </div>
     )
