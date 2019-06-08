@@ -45,7 +45,7 @@ class Contact extends Component{
     render(){
         return(
             <div className='contact'>
-                <form>
+                <form onSubmit={this.onFormSubmit}>
                     <div className='contactName'>
                         <label htmlFor='name'>Name</label>
                         <br />
