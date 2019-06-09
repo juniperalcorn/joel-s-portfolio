@@ -77,6 +77,66 @@
   flex-direction: column;
   margin-bottom: 3%
 }
+
+/* C O N T A C T */
+.contact{
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+  padding: 5%;
+  background-color: lightgreen;
+}
+.contactInfo{
+  margin-right: 5%;
+  width: 35%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: lightcoral;
+  padding: 4%;
+  border-radius: 15px;
+}
+.contactName {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+#contactName{
+  margin-left: 9%;
+  width: 99%;
+  height: 1.5em;
+}
+.contactEmail{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+#contactEmail{
+  margin-left: 11%;
+  width: 99%;
+  height: 1.5em;
+}
+.contactMsg{
+  display: flex;
+  flex-direction: row;
+}
+#contactMsg{
+  width: 100%;
+  height: 6em;
+  margin-left: 3%;
+}
+.contactButton{
+  margin-left: 50%;
+}
+#contactButton{
+  width: 6em;
+  height: 2em;
+  border-radius: 15px;
+  margin-top: 15%;
+  font-family: 'Nanum Gothic', sans-serif;
+}
 /* F O O T E R */
 .footer{
   display: flex;

@@ -45,9 +45,13 @@ class Contact extends Component{
     render(){
         return(
             <div className='contact'>
+                <div className='contactInfo'>
+                    <h2>Contact</h2>
+                    <p>Contact for more information, pricing, scheduling.</p>
+                </div>
                 <form onSubmit={this.onFormSubmit}>
                     <div className='contactName'>
-                        <label htmlFor='name'>Name</label>
+                        <label htmlFor='name'>Name:</label>
                         <br />
                         <input
                             id='contactName'
@@ -59,7 +63,7 @@ class Contact extends Component{
                     </div>
 
                     <div className='contactEmail'>
-                        <label htmlFor='email'>Email</label>
+                        <label htmlFor='email'>Email:</label>
                         <br />
                         <input 
                             id='contactEmail'
@@ -70,7 +74,7 @@ class Contact extends Component{
                     </div>
 
                     <div className='contactMsg'>
-                        <label htmlFor='message'>Message</label>
+                        <label htmlFor='message'>Message:</label>
                         <br />
                         <input 
                             id='contactMsg'
@@ -86,7 +90,7 @@ class Contact extends Component{
                             type='submit'
                             value='submit'
                             text='Send'
-                        />
+                        >Send</button>
                     </div>
 
                 </form>
