@@ -8,7 +8,7 @@ class Portfolio extends Component{
     render(){
         return(
             <div className='portfolio'>
-                Portfolio section
+                <h2>Portfolio section</h2>
             </div>
         )
     }
